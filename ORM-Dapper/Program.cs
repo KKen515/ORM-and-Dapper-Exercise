@@ -30,7 +30,7 @@ var prodRepo = new ProductRepository(conn);
 
 //prodRepo.CreateProduct("Banana", 5.00, 10, false, 25);
 //prodRepo.UpdateProduct("Mario Kart 8", 60.00, 8, false, 500, 940);
-//prodRepo.DeleteProduct(940);
+prodRepo.DeleteProduct(940);
 
 
 var products =  prodRepo.GetAllProducts();
